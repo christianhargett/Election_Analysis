@@ -42,3 +42,6 @@ The analysis of the election show that:
    - Arapahoe counted for 6.7% of the votes (24,801 votes)
  - The county with the highest turnout was:
    - Denver who counted for 82.8% of the votes (306,055 votes)
+   
+## Election Audit Summary
+Should the Colorado Board of Elections (or any other board of elections, for that matter) need to use this program to complete another election audit, there shouln't be a problem using this exact code to recreate it. The code can easily applied to different datasets, assuming the datasets has the same structure as our current dataset. However, if the board wanted to view additional data points by editing this script then that could also be done as well. For example, if the Board was interested in finding the county with the lowest voter turnout every time they ran this script then the "for" loop that we used to determine the county with the highest voter turnout could be rewritten to find the county with the lowest turnout. Another data point that the Board may be interested in seeing is how each candidate fared in each separate county. 
